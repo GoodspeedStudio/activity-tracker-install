@@ -10,7 +10,7 @@ signed app. The source is private.
 ## Install, or update
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/damian-debug/activity-tracker-install/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/GoodspeedStudio/activity-tracker-install/main/install.sh | bash
 ```
 
 The same command installs and updates. Updating keeps your tracked history,
@@ -23,7 +23,7 @@ Full guide, including what to do if the menu bar icon does not appear:
 ## Uninstall
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/damian-debug/activity-tracker-install/main/uninstall.sh | bash
+curl -fsSL https://raw.githubusercontent.com/GoodspeedStudio/activity-tracker-install/main/uninstall.sh | bash
 ```
 
 Removes the app, its login item, its permissions and its preferences, then asks

@@ -1,7 +1,7 @@
 #!/bin/bash
 # Installs (or updates) Activity Tracker.
 #
-#   curl -fsSL https://raw.githubusercontent.com/damian-debug/activity-tracker-install/main/install.sh | bash
+#   curl -fsSL https://raw.githubusercontent.com/GoodspeedStudio/activity-tracker-install/main/install.sh | bash
 #
 # Why a Terminal command rather than a double-clickable installer: macOS applies
 # the com.apple.quarantine flag to anything downloaded by a browser, Slack, Mail
@@ -11,7 +11,7 @@
 # still verified below — this skips Apple's notarization, not the integrity check.
 set -euo pipefail
 
-REPO="damian-debug/activity-tracker-install"
+REPO="GoodspeedStudio/activity-tracker-install"
 ZIP_URL="https://github.com/${REPO}/releases/latest/download/ActivityTracker.zip"
 APP_NAME="Activity Tracker.app"
 
@@ -116,7 +116,7 @@ Everything stays on this Mac. The app makes no network requests at all,
 and nothing is shared with anyone unless you export it yourself.
 
 To remove it later:
-  curl -fsSL https://raw.githubusercontent.com/damian-debug/activity-tracker-install/main/uninstall.sh | bash
+  curl -fsSL https://raw.githubusercontent.com/GoodspeedStudio/activity-tracker-install/main/uninstall.sh | bash
 NOTE
 fi
 }

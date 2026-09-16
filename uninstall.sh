@@ -1,7 +1,7 @@
 #!/bin/bash
 # Removes Activity Tracker from this Mac.
 #
-#   curl -fsSL https://raw.githubusercontent.com/damian-debug/activity-tracker-install/main/uninstall.sh | bash
+#   curl -fsSL https://raw.githubusercontent.com/GoodspeedStudio/activity-tracker-install/main/uninstall.sh | bash
 #
 # Removes the app, its login item, its permission grants and its preferences.
 # Your tracked history is kept unless you say otherwise — it asks first, and

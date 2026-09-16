@@ -5,7 +5,7 @@
 Paste this into Terminal:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/damian-debug/activity-tracker-install/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/GoodspeedStudio/activity-tracker-install/main/install.sh | bash
 ```
 
 That downloads the latest release, checks its signature, installs it to
@@ -69,7 +69,7 @@ choose, yourself, from the dashboard.
 ### Uninstalling
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/damian-debug/activity-tracker-install/main/uninstall.sh | bash
+curl -fsSL https://raw.githubusercontent.com/GoodspeedStudio/activity-tracker-install/main/uninstall.sh | bash
 ```
 
 This removes the app, its "Open at login" entry, its Accessibility and
@@ -81,8 +81,8 @@ being erased, so a mistaken "y" is recoverable until you empty the Trash.
 To skip the question, add a flag:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/damian-debug/activity-tracker-install/main/uninstall.sh | bash -s -- --delete-data
-curl -fsSL https://raw.githubusercontent.com/damian-debug/activity-tracker-install/main/uninstall.sh | bash -s -- --keep-data
+curl -fsSL https://raw.githubusercontent.com/GoodspeedStudio/activity-tracker-install/main/uninstall.sh | bash -s -- --delete-data
+curl -fsSL https://raw.githubusercontent.com/GoodspeedStudio/activity-tracker-install/main/uninstall.sh | bash -s -- --keep-data
 ```
 
 Want a copy of your hours first? Export them from the dashboard before
@@ -139,7 +139,7 @@ cd mac
 
 The source repository is private. `publish-release.sh` copies the two
 installer scripts and this guide to the public distribution repo
-(`damian-debug/activity-tracker-install`) and attaches the signed app to a
+(`GoodspeedStudio/activity-tracker-install`) and attaches the signed app to a
 release there, so the team needs no GitHub account and the source stays
 private. Publishing the signed app is safe: `install.sh` refuses anything not
 signed with the pinned certificate.
