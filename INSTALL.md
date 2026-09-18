@@ -16,6 +16,21 @@ rules and permissions all survive.
 
 Works on Apple Silicon and Intel, macOS 14 and later.
 
+### Things you don't want tracked
+
+Open the dashboard and go to **Not Tracked** to list apps and sites that should
+never be recorded — Netflix, YouTube, your banking site, anything.
+
+- **Apps:** choose from apps you have used, or pick any app on your Mac.
+- **Sites:** type `youtube.com` for the whole site, or `youtube.com/shorts` for
+  one part of it. Pasting a page's address works too.
+- You can also hit **Never track** straight from the **Apps & Sites** tab.
+
+Nothing about them is recorded from then on — not the time, not window titles,
+not addresses. That time simply becomes a gap in your day. Anything recorded
+*before* you added them stays until you delete it, and the Not Tracked tab shows
+how much there is and offers to remove it.
+
 ### Can't see the timer in the menu bar?
 
 It is almost certainly running — macOS just has nowhere to put the icon. When
