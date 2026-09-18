@@ -26,6 +26,11 @@ never be recorded — Netflix, YouTube, your banking site, anything.
   one part of it. Pasting a page's address works too.
 - You can also hit **Never track** straight from the **Apps & Sites** tab.
 
+Quickest of all: while the thing is in front of you, open the menu bar timer and
+click the **eye** next to what it says you are doing — "Never track netflix.com"
+or "Never track Netflix". That also drops the time it had already counted for
+it, and offers **Undo** in case of a mis-click.
+
 Nothing about them is recorded from then on — not the time, not window titles,
 not addresses. That time simply becomes a gap in your day. Anything recorded
 *before* you added them stays until you delete it, and the Not Tracked tab shows
